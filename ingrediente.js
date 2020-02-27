@@ -11,7 +11,7 @@ export default class Ingrediente {
         this.nombre = nombre
         this.precio = precio
     }
-    getDescripcion() {
-        return `${this.cantidad.getDescripcion()} de ${this.nombre} $${this.precio}`
+    getDescripccion() {
+        return `${this.cantidad.getDescripccion()} de ${this.nombre} $${this.precio}`
     }
 }

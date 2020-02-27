@@ -9,7 +9,7 @@ export default class Cantidad {
     this.unidad = unidad
     }
 
-    getDescripcion() {
+    getDescripccion() {
         return `${this.valor} ${this.unidad}`
     }
 }
